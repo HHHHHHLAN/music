@@ -102,7 +102,7 @@ if (server('HTTP_X_REQUESTED_WITH') === 'XMLHttpRequest') {
     }
 
     if (empty($music_response)) {
-        response('', 404, 'ㄟ( ▔, ▔ )ㄏ 没有找到相关信息');
+        response('', 404, 'ㄟ( ▔, ▔ )ㄏ 没有找到相关信息 欢迎关注微信公众号：小白课代表');
     }
 
     if ($music_response['error']) {
